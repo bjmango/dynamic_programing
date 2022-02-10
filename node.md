@@ -5,7 +5,7 @@ YouTube: https://www.youtube.com/watch?v=oBt53YbR9Kk&list=PLI_woXrp15_2Ae7OrNGbl
 
 # Memoization Recipe
 
-1. Make it work.
+1. Make it work (Brute Force solution)
    - visualize the problem as a tree
    - implement the tree using recursion
    - test it
@@ -25,3 +25,12 @@ YouTube: https://www.youtube.com/watch?v=oBt53YbR9Kk&list=PLI_woXrp15_2Ae7OrNGbl
    memo[x] = xxx
    return memo[x]
    ```
+
+# Tabulation Recipe
+
+- visualize the problem as a table
+- size the table bases on the inputs of the problem
+- initialize the table with default values
+- seed the trivial answer into the table (base cases)
+- iterate through the table
+- fill further positions bases on the current position
